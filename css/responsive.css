@@ -3,211 +3,234 @@
 header {
     height: 80px;
 }
+.header-list {
+  margin-right: 30px;
+}
 .header-list li {
     font-size: 11px;
     padding-top: 20px;
-    padding-right: 30px;
+}
+.logo {
+  width: 100 px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 .header-img {
-    padding: 90px 0 20px 0;
-  }
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.header-txt {
+  padding: 0 0;
+}
 
-  .company-wrapper {
-    height: 150px;
-  }
+.company-wrapper {
+  height: 150px;
+}
       
-  .company {
-    width: 40%;
-    padding: 10px 10px 10px 40px;
-  }
+.company {
+  width: 40%;
+  padding: 10px 10px 10px 40px;
+}
   
-  .company p {
-      font-size: 10px;
-  }
+.company p {
+  font-size: 10px;
+}
 
-  .company h2 {
-    font-weight: bold;
-    padding: 20px 5px 5px 10px ;
-    font-size: 12px;
-    position: relative;
-  }  
-  .company-icon {
-    float: left;
-    margin-right: 10px;
-    width: 70px;
-    display: inline;
-  }
-  .progate {
-    padding-top: 50px;
-    padding-right: 30px;
-  }
+.company h2 {
+  font-weight: bold;
+  padding: 20px 5px 5px 10px ;
+  font-size: 12px;
+  position: relative;
+}  
+.company-icon {
+  float: left;
+  margin-right: 10px;
+  width: 70px;
+  display: inline;
+}
+.progate {
+  padding-top: 50px;
+  padding-right: 30px;
+}
 
 .lesson-wrapper {
-    padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    line-height: 10px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  line-height: 10px;
+}
+.heading {
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
 .lessons {
-    width: 25%;
-    height: 200px;
-    margin: 10px;
+  width: 25%;
+  height: 200px;
+  margin: 10px;
+}
+.lesson {
+  float: left;
 }
 .lesson-icon {
-    padding-top: 30px;
-    margin-bottom: 15px;
-    width: 50px;
-    height: auto;
-  }
+  padding-top: 30px;
+  margin-bottom: 15px;
+  width: 50px;
+  height: auto;
+}
 .txt-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    line-height: normal;
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: normal;
 }
 .section-title {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 
 footer {
-    height: 50px;
-    padding: 30px 0;
-  }
+  height: 50px;
+  padding: 30px 0;
+}
   
-  .footer-list {
-    margin-right: 30px;
-    font-size: 12px;
-  }
+.footer-list {
+  float: right;
+  padding-right: 30px;
+  margin-top: -15px;
+  font-size: 12px;
+}
   
-  .footer-list li {
-    padding-bottom: 10px;
-  }
+.footer-list li {
+  padding-bottom: 10px;
+}
   
-  .footer-logo {
-    float: left;
-  }
+.footer-logo {
+  float: left;
+}
   
-  .footer-logo img {
-    width: 100px;
-    display: inline;
-    padding-top: 20px;
-  }
+.footer-logo img {
+  width: 100px;
+  display: inline;
+  padding-top: 15px;
+}
 
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-    header {
-        height: 50px;
-        border-bottom: 2px solid #4F7877;
-      }
+header {
+  max-width: 670px;
+  height: 50px;
+  border-bottom: 2px solid #4F7877;
+}
       
-      .header-logo {
-        float: left;
-        padding-top: 15px;
-        margin-left: 20px;
-      }
-      .header-logo img {
-        width: 90px;
-        height: auto;
-      }
+.logo {
+  width: 90px;
+  height: auto;
+}
 
-      .header-list {
-        display: none;
-      }
+.menu-icon {
+  display: block !important;
+}
+
+.header-list {
+  display: none;
+}
       
-      .header-img {
-        width: 100%;
-        padding: 50px 20px 30px 20px;
-      }
+.header-img {
+  max-width: 670px;
+  padding: 50px 20px 30px 20px;
+}
       
-      .header-txt {
-        padding: 30px;
-      }
+.header-txt {
+  padding: 20px;
+}
       
-      .header-txt h1 {
-        font-size: 20px;
-        line-height: 12px;
-      }
+.header-txt h1 {
+  font-size: 20px;
+  line-height: 12px;
+}
       
-      .header-txt p {
-        font-size: 12px;
-      }
+.header-txt p {
+  font-size: 12px;
+}
 
 
-      .company-wrapper {
-        height: 250px;
-        border-bottom: 2px solid #4F7877;
-        padding: 3px 30px ;
-      }
+.company-wrapper {
+  height: 250px;
+  border-bottom: 2px solid #4F7877;
+  padding: 3px 30px ;
+}
           
-      .company {
-        width: 80%;
-        display: inline-block;
-      }
+.company {
+  width: 80%;
+  display: inline-block;
+}
       
-      .company h2 {
-        font-size: 12px;
-        display: block;
-        padding: 5px;
-      }  
-      .company-icon {
-        width: 96px;
-        padding: 5px;
-      }
-      .progate {
-          padding-top: 30px;
-          margin-bottom: 50px;
-      }
-      .heading {
-        padding-top: 30px;
-        padding-bottom: 40px;
-        padding-left: 30px;
-      }
-      .heading h2 {
-        font-size: 16px;
-      }
-      .heading p {
-        font-size: 12px;
-      }
-      .lessons {
-        width: 90%;
-      }
+.company h2 {
+  font-size: 12px;
+  display: block;
+  padding: 5px;
+}  
+.company-icon {
+  width: 96px;
+  padding: 5px;
+}
+.progate {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+.heading {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+.heading h2 {
+  font-size: 16px;
+}
+.heading p {
+  font-size: 12px;
+}
+.lessons {
+  width: 85%;
+}
+.lesson {
+  float: none;
+}
 
-      .txt-contents {
-        width: 80%;
-        font-size: 11px;
-      }
+.txt-contents {
+  width: 70%;
+  font-size: 11px;
+}
 
-      .contact-form {
-        padding: 10px 10px 10px 30px;
-      }
-      .contact-form p {
-          font-size: 11px;
-      }
+.contact-form {
+  padding: 10px 10px 10px 30px;
+}
+.contact-form p {
+  font-size: 11px;
+}
       
-      .section-title {
-        font-size: 16px;
-      }
-      input, textarea {
-        width: 80%;
-        margin-bottom: 5px;
-        font-size: 11px;
-      }
+.section-title {
+  font-size: 16px;
+}
+input, textarea {
+  width: 80%;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
       
-      textarea {
-        padding: 25px 10px;
-      }
-      .submit {
-        display: inline;
-        background-color: #A9D6D5;
-        color: white;
-        width: 80%;
-      }
+textarea {
+  padding: 25px 10px;
+}
+.submit {
+  display: inline;
+  background-color: #A9D6D5;
+  color: white;
+  width: 80%;
+}
 
 
 
@@ -217,7 +240,7 @@ footer {
   }
   
   .footer-list {
-    margin-right: 20px;
+    margin-right: 5px;
     font-size: 11px;
   }
   
