@@ -8,13 +8,10 @@ This is a webpage design for GLints Academy Batch 6 and Progate assignment.
 
 ## Team Members
 
-Contributors names and contact info  
+Contributors 
 [Chlaudya](https://github.com/chlaudya)
-
 [Imam](https://github.com/ImamTaufiqHermawan)
-
 [Prada](https://github.com/pradaayu)
-
 [wkp13](https://github.com/wkp13)
 
 
