@@ -7,43 +7,50 @@
       <title>Group Project</title>
       <link rel="stylesheet" href="styles.css">
       <link rel="stylesheet" href="css/responsive.css">
-      <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">!-->
+      <link rel="stylesheet" href="css/animation.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <script src="js/wow.min.js"></script>
+      <script> new WOW().init(); </script>
     </head>
     <body>
-      <div class="container">
-        <header>
-          <div class="header-logo">
-            <img src="img/progate_logo.png">
+
+      <header>
+        <div class="container">
+          <div class="header-left">
+            <img class="logo" src="img/progate_logo.png">
           </div>
-  
+            
+          <span class="fa fa-bars menu-icon"></span>
+
           <div class="header-list">
-            <ul>
-              <li>Contact us</li>
-              <li>Curriculum</li>
-              <li>About us</li>
-            </ul>
+          <ul>
+            <li>Contact us</li>
+            <li>Curriculum</li>
+            <li>About us</li>
+          </ul>
+          </div>
           </div>
         </header>
-      </div>
+
       
       <div class="container">
           <div class="header-img">
             <div class="header-txt">
-            <h1>PROGATE <span>x</span> GLINTS</h1>
-           <p>The Path to a Brighter Future</p>
+            <h1 class="animate fadeInRight once">PROGATE <span>x</span> GLINTS</h1>
+           <p class="WOW animate fadeInLeft two">The Path to a Brighter Future</p>
            </div>
           </div>
       </div>
     <div class="container">
       <div class="company-wrapper">
         
-        <div class="company"> 
+        <div class="company WOW animate fadeInLeft two"> 
             <img class="company-icon" src="img/glints_logo.png"/>
             <h2>Discover your career.</h2>
             <p>Glints is a professional platform for young people focused on career discovery and development.</p>
         </div>  
         
-        <div class="company">
+        <div class="company WOW animate fadeInLeft two">
             <img class="company-icon progate" src="img/progate_logo.png">
             <h2>Learn programming online.</h2>
             <p>Progate provides a fully equipped coding environment to get you started.</p>
@@ -54,13 +61,13 @@
     <body>
       <div class="container">
         <div class="lesson-wrapper">
-            <div class="heading">
-              <h2>Learn to create</h2>
-              <h2>your own webpage</h2>
+            <div class="heading WOW animate fadeInDown once">
+              <h2 class="WOW animate fadeInDown once">Learn to create</h2>
+              <h2 class="WOW animate fadeInDown two">your own webpage</h2>
               <p>Our curriculum will teach you to collaborate with</p>
               <p>your team and create a webpage from scratch.</p>
             </div>
-  
+            <div class="WOW animate fadeInDown once">
             <div class="lessons">
               <div class="lesson">
   
@@ -87,15 +94,16 @@
                   <img class="lesson-icon" src="img/cmline.png">
                   <p><b>COMMAND LINE</b></p>
                   <p class="txt-contents">Processes command to a computer program</p>
-  
               </div>
+            </div>
             </div>
   
           </div>
       </div>
     <div class="container">
       <div class="contact-form">
-        <h3 class="section-title">Got any questions?</h3>
+        <div class="WOW animate fadeInDown once">
+        <h3 class="section-title WOW animate fadeInDown two">Got any questions?</h3>
         <p>Name</p>
         <input>
         <p>Message (Required)</p>
@@ -103,10 +111,12 @@
         <p>Email address</p>
         <input>
         <input class="contact-submit" type="submit" value="SUBMIT">
+      </div>
     </div>
   </div>
-  <div class="container"> 
-    <footer>   
+   
+    <footer>
+      <div class="container"> 
       <div class="footer-logo">
           <img src="img/progate_logo.png">
       </div>
@@ -117,7 +127,8 @@
               <li>Contact Us</li>
           </ul>
       </div>
+      </div>
     </footer>
-  </div>
+  
   </body>
 </html>
