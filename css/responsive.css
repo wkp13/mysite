@@ -24,12 +24,12 @@ header {
 }
 
 .company-wrapper {
-  height: 150px;
+  height: 180px;
 }
       
 .company {
   width: 40%;
-  padding: 10px 10px 10px 40px;
+  margin: 20px;
 }
   
 .company p {
@@ -38,19 +38,20 @@ header {
 
 .company h2 {
   font-weight: bold;
-  padding: 20px 5px 5px 10px ;
+  margin: 20px 10px 0 20px;
   font-size: 12px;
-  position: relative;
 }  
 .company-icon {
   float: left;
-  margin-right: 10px;
-  width: 70px;
+  padding-top: 10px;
+  margin-right: 30px;
+  width: 85px;
   display: inline;
 }
 .progate {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-right: 30px;
+  margin-left: -20px;
 }
 
 .lesson-wrapper {
@@ -92,7 +93,7 @@ header {
 
 
 footer {
-  height: 50px;
+  height: 120px;
   padding: 30px 0;
 }
   
@@ -121,140 +122,142 @@ footer {
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-header {
-  max-width: 670px;
-  height: 50px;
-  border-bottom: 2px solid #4F7877;
-}
-      
-.logo {
-  width: 90px;
-  height: auto;
-}
-
-.menu-icon {
-  display: block !important;
-}
-
-.header-list {
-  display: none;
-}
-      
-.header-img {
-  max-width: 670px;
-  padding: 50px 20px 30px 20px;
-}
-      
-.header-txt {
-  padding: 20px;
-}
-      
-.header-txt h1 {
-  font-size: 20px;
-  line-height: 12px;
-}
-      
-.header-txt p {
-  font-size: 12px;
-}
-
-
-.company-wrapper {
-  height: 250px;
-  border-bottom: 2px solid #4F7877;
-  padding: 3px 30px ;
-}
-          
-.company {
-  width: 80%;
-  display: inline-block;
-}
-      
-.company h2 {
-  font-size: 12px;
-  display: block;
-  padding: 5px;
-}  
-.company-icon {
-  width: 96px;
-  padding: 5px;
-}
-.progate {
-  padding-top: 30px;
-  margin-bottom: 50px;
-}
-.heading {
-  padding-top: 30px;
-  padding-bottom: 40px;
-  padding-left: 30px;
-}
-.heading h2 {
-  font-size: 16px;
-}
-.heading p {
-  font-size: 12px;
-}
-.lessons {
-  width: 85%;
-}
-.lesson {
-  float: none;
-}
-
-.txt-contents {
-  width: 70%;
-  font-size: 11px;
-}
-
-.contact-form {
-  padding: 10px 10px 10px 30px;
-}
-.contact-form p {
-  font-size: 11px;
-}
-      
-.section-title {
-  font-size: 16px;
-}
-input, textarea {
-  width: 80%;
-  margin-bottom: 5px;
-  font-size: 11px;
-}
-      
-textarea {
-  padding: 25px 10px;
-}
-.submit {
-  display: inline;
-  background-color: #A9D6D5;
-  color: white;
-  width: 80%;
-}
-
-
-footer {
-  height: 60px;
-  padding: 20px 0;
-}
+  header {
+    max-width: 670px;
+    height: 50px;
+    border-bottom: 2px solid #4F7877;
+  }
+        
+  .logo {
+    width: 90px;
+    height: auto;
+  }
   
-.footer-list {
-  margin-right: 5px;
-  font-size: 11px;
-}
+  .menu-icon {
+    display: block !important;
+  }
   
-.footer-list li {
-  line-height: 18px;
-}
+  .header-list {
+    display: none;
+  }
+        
+  .header-img {
+    max-width: 670px;
+    padding: 50px 20px 30px 20px;
+  }
+        
+  .header-txt {
+    padding: 20px;
+  }
+        
+  .header-txt h1 {
+    font-size: 20px;
+    line-height: 12px;
+  }
+        
+  .header-txt p {
+    font-size: 12px;
+  }
   
-.footer-logo {
-  float: left;
-}
   
-.footer-logo img {
-  width: 96px;
-  display: inline;
-  padding-top: 20px;
-}
-
-}
+  .company-wrapper {
+    height: 250px;
+    border-bottom: 2px solid #4F7877;
+    padding: 3px 30px ;
+  }
+            
+  .company {
+    width: 80%;
+    display: block;
+    float: left;
+    margin: 10px 10px;
+  }
+        
+  .company h2 {
+    font-size: 12px;
+    display: block;
+    padding: 5px;
+  }  
+  .company-icon {
+    width: 96px;
+    padding: 5px;
+  }
+  .progate {
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .heading {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+  .heading h2 {
+    font-size: 16px;
+  }
+  .heading p {
+    font-size: 12px;
+  }
+  .lessons {
+    width: 85%;
+  }
+  .lesson {
+    float: none;
+  }
+  
+  .txt-contents {
+    width: 70%;
+    font-size: 11px;
+  }
+  
+  .contact-form {
+    padding: 10px 10px 10px 30px;
+  }
+  .contact-form p {
+    font-size: 11px;
+  }
+        
+  .section-title {
+    font-size: 16px;
+  }
+  input, textarea {
+    width: 80%;
+    margin-bottom: 5px;
+    font-size: 11px;
+  }
+        
+  textarea {
+    padding: 25px 10px;
+  }
+  .submit {
+    display: inline;
+    background-color: #A9D6D5;
+    color: white;
+    width: 80%;
+  }
+  
+  
+  footer {
+    height: 90px;
+    padding: 20px 0;
+  }
+    
+  .footer-list {
+    margin-right: 5px;
+    font-size: 11px;
+  }
+    
+  .footer-list li {
+    line-height: 18px;
+  }
+    
+  .footer-logo {
+    float: left;
+  }
+    
+  .footer-logo img {
+    width: 96px;
+    display: inline;
+    padding-top: 20px;
+  }
+  
+  }
