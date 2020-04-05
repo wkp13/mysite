@@ -8,17 +8,13 @@ This is a webpage design for GLints Academy Batch 6 and Progate assignment.
 
 ## Team Members
 
-Contributors names and contact info
-Dominique Pizzie  
+Contributors names and contact info  
 [Chlaudya](https://github.com/chlaudya)
 
-Dominique Pizzie  
 [Imam](https://github.com/ImamTaufiqHermawan)
 
-Dominique Pizzie  
 [Prada](https://github.com/pradaayu)
 
-Dominique Pizzie  
 [wkp13](https://github.com/wkp13)
 
 
