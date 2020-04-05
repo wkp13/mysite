@@ -4,7 +4,7 @@ Static weppage Progate x Glints Academy.
 
 ## Description
 
-This is a webpage design for GLints Academy Batch 6 and Progate assignment.
+This is a webpage design for Glints Academy Batch 6 and Progate assignment.
 
 ## Team Members
 
