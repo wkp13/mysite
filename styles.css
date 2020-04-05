@@ -1,6 +1,7 @@
 /*imam*/
 body {
   font-family: roboto;
+  margin: 0 0;
 }
 
 }
@@ -15,47 +16,62 @@ a {
 li {
   list-style: none;
 }
-
 .container {
-  max-width: 1770;
+  max-width: 1170px;
   width: 100%;
+  padding: 0;
   margin: 0 auto;
-  background-color: #7BA6A5;
 }
-
 header {
-  height: 100px;
-  width: inherit;
-  background-color: #A9D6D5;
-  border-bottom: 15px solid #4F7877;
+  height: 65px;
+  width: 100%;
+  background-color: #4F7877;
+  border-bottom: 5px solid rgb(44, 70, 69);
   position: fixed;
   top:0;
   z-index: 10;
+  opacity: 98%
+}
+.header-left {
+  float: left;
+}
+.logo {
+  width: 120px;
+  margin-top: 20px;
+  padding-left: 5%;
 }
 
-.header-logo {
-  float: left;
-  padding-top: 30px;
-  margin-left: 20px;
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 5%;
+  display: none !important;
 }
-.header-logo img {
+
+.footer-logo {
   width: 120px;
   height: auto;
 }
 
 .header-list {
   float: right;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .header-list li {
-  font-size: 18px;
+  color: rgb(134, 207, 212);
+  font-size: 14px;
   float: left;
-  padding: 15px 30px;
+  padding: 10px;
+}
+.header-list li:hover {
+  color: white;
 }
 
 .header-img {
-  padding: 180px 0 100px 0;
+  padding-top: 180px;
+  padding-bottom: 100px;
   background-image: url('img/header.png');
   background-size: cover;
   text-align: center;
@@ -147,11 +163,10 @@ span {
   background-color: #A9D6D5;
   display: inline-block;
   margin: 30px;
+  text-align: center;
 }
-} 
 
 .lesson {
-  float: left;
   display: block;
  }
 
@@ -163,23 +178,13 @@ span {
 }
   
 .txt-contents {
-  width: 70%;
+  width: 75%;
   display: inline-block;
   margin-top: 15px;
   margin-bottom: 30px;
   font-size: 14px;
   line-height: normal;
 }
-/*krisna animation*/
-.lessons:hover {
-  width: 20%;
-  border-radius: 20px;
-  box-shadow: 7px 7px 9px #ebfffe;
-  background-color: #A9D6D5;
-  display: inline-block;
-  margin: 30px;
-}
-
 /*prada*/
 .contact-form {
   padding: 80px 10px 120px 80px;
@@ -201,7 +206,6 @@ input, textarea {
   border: none;
   border-radius: 10px;
   display: block;
-
 }
 
 textarea {
@@ -214,7 +218,6 @@ textarea {
   width: 400px;
 }
 .contact-submit {
-
   margin-top: 20px;
 }
 
@@ -229,16 +232,16 @@ footer {
   float: right;
   color: white;
   text-align: right;
-  margin-right: 40px;
+  margin-right: 5%;
 }
 
 .footer-list li {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
   float: left;
-  padding-left: 20px;
+  margin-left: 5%;
 }
 
 .footer-logo img {
