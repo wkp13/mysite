@@ -104,7 +104,7 @@ footer {
 }
   
 .footer-list li {
-  padding-bottom: 10px;
+  line-height: 24px;
 }
   
 .footer-logo {
@@ -233,29 +233,28 @@ textarea {
 }
 
 
-
 footer {
-    height: 60px;
-    padding: 20px 0;
-  }
+  height: 60px;
+  padding: 20px 0;
+}
   
-  .footer-list {
-    margin-right: 5px;
-    font-size: 11px;
-  }
+.footer-list {
+  margin-right: 5px;
+  font-size: 11px;
+}
   
-  .footer-list li {
-    padding-bottom: 10px;
-  }
+.footer-list li {
+  line-height: 18px;
+}
   
-  .footer-logo {
-    float: left;
-  }
+.footer-logo {
+  float: left;
+}
   
-  .footer-logo img {
-    width: 96px;
-    display: inline;
-    padding-top: 20px;
-  }
+.footer-logo img {
+  width: 96px;
+  display: inline;
+  padding-top: 20px;
+}
 
 }
