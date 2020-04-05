@@ -3,7 +3,6 @@ body {
   font-family: roboto;
   margin: 0 0;
 }
-}
 * {
   box-sizing: border-box;
 }
@@ -96,36 +95,31 @@ span {
 
 /*chlaudya*/ 
 .company-wrapper {
-  height: 250px;
+  height: 230px;
   background-color: #ebfffe;
   border-bottom: 15px solid #4F7877;
+  text-align: center;
 }
     
 .company {
   color:black;  
-  width: 40%;
-  position: relative;
-  padding: 20px 50px ;
+  width: 43%;
+  margin: 30px 30px 50px 30px;
   text-align: center;
   display: inline-block;
 }
 
 .company h2 {
   font-weight: bold;
-  padding: 40px 10px 10px 20px ;
   font-size: 17px;
-  position: relative;
+  padding-bottom: 20px;
 }  
 .company-icon {
+  display: inline-block;
   float: left;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  padding-right: 10px;
+  margin: 0 20px 0 0;
+  padding: 0;
   width: 150px;
-  display: inline;
-}
-.progate {
-  padding-top: 80px;
 }
 
 /*krisna*/ 
@@ -152,7 +146,7 @@ span {
   font-size: 20px;
 }
 .lessons {
-  width: 20%;
+  width: 22%;
   border-radius: 20px;
   border-bottom: 7px solid black;
   border-left: 7px solid black;
@@ -222,8 +216,8 @@ textarea {
 
 footer {
   background-color: #4F7877;
-  height: 80px;
-  padding: 40px 0;
+  height: 150px;
+  padding: 30px 0;
 }
 
 .footer-list {
@@ -245,7 +239,7 @@ footer {
 }
 
 .footer-logo img {
-  width: 150px;
+  width: 120px;
   display: inline;
   padding-top: 10px;
 }
