@@ -223,7 +223,7 @@ textarea {
 
 footer {
   background-color: #4F7877;
-  height: 150px;
+  height: 80px;
   padding: 40px 0;
 }
 
@@ -233,10 +233,11 @@ footer {
   color: white;
   text-align: right;
   margin-right: 5%;
+  margin-top: -30px;
 }
 
 .footer-list li {
-  margin-bottom: 20px;
+  line-height: 36px;
 }
 
 .footer-logo {
@@ -247,5 +248,5 @@ footer {
 .footer-logo img {
   width: 150px;
   display: inline;
-  padding-top: 40px;
+  padding-top: 10px;
 }
